@@ -1,0 +1,15 @@
+canvas {
+    position: absolute;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.layer-1 {
+    z-index: -1;
+    background-color: transparent;
+}
+
+.layer-background {
+    z-index: -2;
+    background-color: transparent;
+}
