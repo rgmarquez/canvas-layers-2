@@ -4,16 +4,15 @@
  *
  * @author Richard "Greg" Marquez (aka G-Money)
  * @license MIT
- * @example node perceptron.js 0.0 1.0
- * @description I wrote this code back in June 2, 2018, and it uses old style JavaScript
- * conventions, influding defining classes using functions and prototypes.  I use two canvases,
- * one with a positive zIndex and one with a negative zIndex to draw two moving corcles, one
- * behind the HTML text, and one in front of the HTML text.  The two circles move left to right
- * and right to left to demostrate the Z sorting with the text and each other.
- * Scrolling is supposed to keep the circles in the same position as the text is scrolled between
- * them; the current implementation worked well in Safari, Firefox, and Chrome circa 2018,
- * but now seems to have "stuttering" problems as you stroll up and down quickly in modern (2024)
- * Safari.
+ * @description I wrote this code back in June 2, 2018; it uses old style JavaScrip conventions,
+ *  including defining classes using functions and prototypes.  I use two canvases, one with a
+ *  positive zIndex and one with a negative zIndex to draw two moving corcles, one behind the
+ *  HTML text, and one in front of the HTML text.  The two circles move left to right and right
+ *  to left to demonstrate the Z sorting with the text and each other.  Scrolling is supposed
+ *  to keep the circles in the same position as the text is scrolled between them and the current
+ *  implementation worked well in Safari, Firefox, and Chrome circa 2018.  However, the code
+ *  now seems to have "stuttering" problems as you stroll up and down quickly in modern (2024)
+ *  Safari, which I will debug soon.
  */
 
 // - --------------------------------------------------------------------------
